@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:digital-7;
+    src: url(font-famiy/digital-7.zip);
+}
+body{
+    background: linear-gradient(rgb(53, 248, 238) ,rgb(27, 27, 27));
+}
+.container{
+    width: 100%;
+}
+ 
+ .col{
+    border-radius: 20px;
+    background-color: #4d4646;
+    padding: 40px;
+    box-shadow: inset 0px 0px 50px black;
+ }
+.colok1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid rgb(213, 255, 28);
+    border-left: 2px solid rgb(213, 255, 28);
+    border-right: 2px solid rgb(213, 255, 28);
+    padding: 10px;
+    
+   
+}
+.date-month-year span{
+    border: 1px solid;
+    padding: 5px 10px 4px 24px;
+    font-size: 30px;
+    color:white;
+    background-color: rgb(255, 172, 167);
+    box-shadow: 0px 0px 10px;
+}
+h3{
+    margin: 5px 0px;
+    color: aliceblue;
+
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.colok2{
+    width: 100%;
+    height: 80px;
+    padding: 30px 0px 20px 0px;
+    border-left: 2px solid rgb(213, 255, 28);
+    border-right: 2px solid rgb(213, 255, 28);
+
+
+}
+.colok2 p{
+    color: aliceblue;
+}
+.colok2 span{
+    font-size: 30px;
+    font-family: digital-7;
+    color:white;
+    background-color:rgb(255, 172, 167);
+    box-shadow: 0px 0px 20px;
+}
+.ampm-div{
+    width: 45px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.ampm-div p{
+    width: 18px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    color: white;
+
+}
+.colok3{
+    padding: 10px 0px 0px 0px;
+    border-left: 2px solid rgb(213, 255, 28);
+    border-right: 2px solid rgb(213, 255, 28);
+    padding: 10px;
+
+}
+.colok3 p{
+    color: aliceblue;
+}
+.colok3 span{
+    color: white;
+    background-color:rgb(255, 172, 167);
+    box-shadow: 0px 0px 20px;
+}
+.border-span{
+    border: 1px solid;
+    padding: 5px 12px;
+    font-family: digital-7;
+    color: aliceblue;
+}
+.tem-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tem-div span{
+    font-size: 25px;
+    border: 1px solid ;
+    padding: 5px;
+    font-family: digital-7;
+    color:white;
+    background-color: rgb(255, 172, 167);
+    box-shadow: 0px 0px 20px;
+
+    
+}
+.colok4{
+    padding: 20px 0px 0px 0px ;
+    display: flex;
+    justify-content: space-between;
+    border-left: 2px solid rgb(213, 255, 28);
+    border-right: 2px solid rgb(213, 255, 28);
+    border-bottom: 2px solid rgb(213, 255, 28);
+    padding: 10px;
+}
+.colok4 p{
+   width: 15px;
+   height: 15px;
+   border: 1px solid;
+   border-radius: 50%;
+   color: aliceblue;
+  
+
+
+}
+h5{
+    color: aliceblue;
+    
+}
+#color{
+     color: aliceblue;
+     border: none;
+     background-color: #45403E;
+}
